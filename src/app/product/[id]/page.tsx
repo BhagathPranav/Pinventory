@@ -3,6 +3,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import type { Metadata } from "next";
 import { getAllProducts, getProductById } from "@/lib/data";
+import { DEFAULT_BLUR_DATA_URL } from "@/lib/imageUtils";
+import ProductActions from "./ProductActions";
 
 interface ProductPageProps {
   params: Promise<{
@@ -58,7 +60,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
   }
 
   // Find related products
-  const relatedProducts = product.relatedItems
+  const relatedProducts = (product.relatedItems || [])
     .map((relatedItem: any) => {
       const item = productsData.find((p: any) => p.id === relatedItem.id);
       if (item) {
@@ -68,8 +70,38 @@ export default async function ProductPage({ params }: ProductPageProps) {
     })
     .filter((item: any) => item !== null);
 
+  const numericPrice = product.price.replace(/[^0-9.]/g, '');
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.name,
+    image: [`https://pinventory-5hr5.vercel.app${product.image}`],
+    description: `Shop ${product.name} on Pinventory. Curated minimalist apparel.`,
+    sku: product.id,
+    offers: {
+      '@type': 'Offer',
+      url: `https://pinventory-5hr5.vercel.app/product/${product.id}`,
+      priceCurrency: 'INR',
+      price: numericPrice,
+      availability: 'https://schema.org/InStock',
+      itemCondition: 'https://schema.org/NewCondition',
+    },
+  };
+
+  const pinUrl = `https://pinterest.com/pin/create/button/?url=${encodeURIComponent(
+    `https://pinventory-5hr5.vercel.app/product/${product.id}`
+  )}&media=${encodeURIComponent(
+    `https://pinventory-5hr5.vercel.app${product.image}`
+  )}&description=${encodeURIComponent(
+    `Shop ${product.name} (${product.price}) on Pinventory.`
+  )}`;
+
   return (
     <div className="flex flex-col">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* PRODUCT TOP SECTION */}
       <section className="px-6 py-12 md:px-12 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-start">
         <div className="relative aspect-[4/5] w-full border border-ebony overflow-hidden">
@@ -77,15 +109,17 @@ export default async function ProductPage({ params }: ProductPageProps) {
             src={product.image} 
             alt={product.name} 
             fill 
-            className="object-cover"
             priority
+            placeholder="blur"
+            blurDataURL={DEFAULT_BLUR_DATA_URL}
+            className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
           />
         </div>
         
         <div className="flex flex-col max-w-xl sticky top-12">
           <div className="font-mono text-xs tracking-widest uppercase mb-6 text-ebony/70">
-            {product.category} &bull; {product.sex}
+            {product.category} &bull; {product.section}
           </div>
           <h1 className="font-brand text-4xl md:text-6xl font-[800] tracking-tight uppercase mb-6">
             {product.name}
@@ -98,17 +132,17 @@ export default async function ProductPage({ params }: ProductPageProps) {
             An essential piece for the minimalist wardrobe. The {product.name.toLowerCase()} offers unmatched versatility, premium construction, and a timeless silhouette. Carefully selected to elevate your daily uniform.
           </p>
 
-          <a 
-            href={product.amazonLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-amber text-ebony text-center px-8 py-5 font-brand text-xl font-[800] uppercase tracking-wide hover:bg-ebony hover:text-bone transition-colors focus-visible:outline-none w-full"
-          >
-            View on Amazon &rarr;
-          </a>
+          <ProductActions 
+            productId={product.id}
+            amazonLink={product.amazonLink}
+            pinUrl={pinUrl}
+          />
           
-          <div className="mt-8 font-ui text-xs text-ebony/60 text-center uppercase tracking-widest">
-            Available via Amazon Associates
+          <div className="mt-8 p-4 border border-ebony/20 bg-ebony/5 flex flex-col gap-1.5 font-ui text-xs text-ebony/80">
+            <div className="font-mono text-ebony font-semibold uppercase tracking-wider flex items-center gap-1.5">
+              <span>✓ Official Amazon Associate Link</span>
+            </div>
+            <div className="text-ebony/60">Dispatched & fulfilled directly via Amazon with standard buyer protection.</div>
           </div>
         </div>
       </section>
@@ -137,6 +171,8 @@ export default async function ProductPage({ params }: ProductPageProps) {
                     src={relatedItem.image} 
                     alt={relatedItem.name} 
                     fill 
+                    placeholder="blur"
+                    blurDataURL={DEFAULT_BLUR_DATA_URL}
                     className="object-cover transition-transform duration-700 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
                   />

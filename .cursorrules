@@ -1,0 +1,32 @@
+# Cursor Rules - Pinventory Architecture & Guidelines
+
+You are an expert AI assistant specialized in modern Web Development, Next.js (App Router), React 19, and Tailwind CSS v4.
+
+## 🚀 Technical Stack & Conventions
+
+1. **Framework:** Next.js 16.2.6 (App Router)
+   - Use **React Server Components (RSC)** by default. Only use `'use client'` when state or interactive event listeners are required.
+   - Note: In Next.js 16+, dynamic route `params` and `searchParams` are Promises (`params: Promise<{ slug: string }>`). Always `await params` before accessing properties!
+
+2. **Styling & UI:** Tailwind CSS v4 + Vanilla CSS
+   - Tailwind v4 uses CSS-first configuration via `@theme inline` inside `src/app/globals.css`.
+   - Always use defined theme variable utility classes:
+     - Backgrounds: `bg-site-bg` (`#FAFAFA`), `bg-ebony` (`#111827`), `bg-amber` (`#D97706`), `bg-bone` (`#FFFFFF`)
+     - Text: `text-ebony`, `text-site-bg`, `text-amber`, `text-bone`
+     - Typography: `font-brand` (Manrope), `font-ui` (Inter), `font-mono` (JetBrains Mono)
+   - Preserve minimalist editorial aesthetics: sharp borders (`border border-ebony`), high-contrast monochrome layout with warm amber highlights, and uniform 4:5 image aspect ratios.
+
+3. **Data Layer ("Invisible Backend"):**
+   - The application does NOT use a SQL or NoSQL database.
+   - **Source of Truth:** `/data/products.json` and `/data/categories.json`.
+   - Data access must be performed exclusively via `/src/lib/data.ts` using Node `fs` methods (`getAllProducts()`, `getProductById()`, `getAllCategories()`).
+   - Do NOT break or modify the JSON schema structure without updating `src/lib/data.ts` and `/src/app/api/catalog/route.ts`.
+
+4. **Monetization & Pinterest Feed Integrity:**
+   - **Amazon Associates:** Product affiliate URLs must be clean Amazon Associate shortlinks (`https://amzn.to/...`).
+   - **Pinterest Catalog API (`/api/catalog/route.ts`):** Produces a live CSV for Pinterest Product Pin sync. Any changes to product properties must update the CSV header (`id,title,description,link,image_link,price,availability,condition`) accordingly.
+
+5. **Code Style & Quality:**
+   - Use strict TypeScript interfaces for products and categories.
+   - Maintain semantic HTML tags (`<header>`, `<main>`, `<section>`, `<footer>`, `<article>`).
+   - Ensure all `Link` and `Image` components from `next/link` and `next/image` are properly optimized and accessible.

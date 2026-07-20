@@ -1,6 +1,9 @@
+import { Suspense } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { getAllProducts, getAllCategories } from "@/lib/data";
+import CategoryProductsGrid from "./CategoryProductsGrid";
 
 interface CategoryPageProps {
   params: Promise<{
@@ -14,16 +17,49 @@ export async function generateStaticParams() {
   return [...categories, { slug: "men" }, { slug: "women" }];
 }
 
+export async function generateMetadata({ params }: CategoryPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const categoriesData = getAllCategories();
+  const matchedCategory = categoriesData.find(
+    (c: any) => c.slug.toLowerCase() === slug.toLowerCase()
+  );
+
+  const title = matchedCategory ? `${matchedCategory.name} | Pinventory` : `${slug.toUpperCase()} | Pinventory`;
+  const description = matchedCategory
+    ? matchedCategory.description
+    : `Explore the curated ${slug} selection at Pinventory. Minimalist fashion essentials.`;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      url: `https://pinventory-5hr5.vercel.app/category/${slug}`,
+    },
+  };
+}
+
 export default async function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = await params;
   const productsData = getAllProducts();
-  
-  const title = slug.toUpperCase();
-  const description = "All curated essentials for this section.";
+  const categoriesData = getAllCategories();
 
-  const filteredProducts = productsData.filter(
-    (product: any) => product.section && product.section.toLowerCase() === slug.toLowerCase()
+  const matchedCategory = categoriesData.find(
+    (c: any) => c.slug.toLowerCase() === slug.toLowerCase()
   );
+  
+  const title = matchedCategory ? matchedCategory.name.toUpperCase() : slug.toUpperCase();
+  const description = matchedCategory 
+    ? matchedCategory.description 
+    : "All curated essentials for this section.";
+
+  const filteredProducts = productsData.filter((product: any) => {
+    const matchSection = product.section && product.section.toLowerCase() === slug.toLowerCase();
+    const matchCategory = product.category && product.category.toLowerCase() === slug.toLowerCase();
+    return matchSection || matchCategory;
+  });
 
   return (
     <div className="flex flex-col">
@@ -42,46 +78,15 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         </div>
       </section>
 
-      {/* PRODUCT GRID */}
-      <section className="px-6 py-24 md:px-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
-          {filteredProducts.length > 0 ? (
-            filteredProducts.map((product: any, idx: number) => (
-              <Link 
-                key={product.id} 
-                href={`/product/${product.id}`}
-                className="group flex flex-col focus-visible:outline-none"
-              >
-                <div className="relative aspect-[4/5] w-full mb-6 overflow-hidden border border-ebony">
-                  <Image 
-                    src={product.image} 
-                    alt={product.name} 
-                    fill 
-                    className="object-cover transition-transform duration-700 group-hover:scale-105"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
-                  />
-                  <div className="absolute top-4 left-4 bg-site-bg border border-ebony px-2 py-1 font-mono text-xs z-10 text-ebony">
-                    0{idx + 1}
-                  </div>
-                </div>
-                
-                <div className="flex flex-col gap-2 group-hover:text-amber transition-colors">
-                  <div className="flex justify-between items-start font-ui text-sm uppercase tracking-wide font-medium">
-                    <h3 className="truncate pr-4">{product.name}</h3>
-                    <span className="font-mono">{product.price}</span>
-                  </div>
-                  <div className="font-mono text-xs text-ebony/60 uppercase">
-                    {product.category}
-                  </div>
-                </div>
-              </Link>
-            ))
-          ) : (
-            <div className="col-span-full py-12 text-center font-ui text-ebony/80 text-lg">
-              Curated essentials for this section are arriving soon.
-            </div>
-          )}
-        </div>
+      {/* PRODUCT GRID & SORTING */}
+      <section className="px-6 py-16 md:px-12">
+        <Suspense fallback={
+          <div className="py-24 text-center font-mono text-xs uppercase text-ebony/60 tracking-widest">
+            Loading collection...
+          </div>
+        }>
+          <CategoryProductsGrid products={filteredProducts} />
+        </Suspense>
       </section>
     </div>
   );

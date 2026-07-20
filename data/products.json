@@ -1,129 +1,1313 @@
 [
   {
-    "id": "premium-minimalist-shirt",
-    "name": "Premium Minimalist Casual Shirt",
-    "price": "₹2,499",
-    "amazonLink": "https://amzn.to/4forRan",
-    "image": "/images/louis-shirt.jpg",
-    "section": "men",
-    "category": "tops",
+    "id": "salava-women-cotton-floral-printed-short-kurti",
+    "name": "SALAVA Women Cotton Floral Printed Short Kurti",
+    "price": "\u20b9349",
+    "amazonLink": "https://link.amazon/B0iHdLlDJ",
+    "image": "https://m.media-amazon.com/images/I/71uLwjBwB+L._SL1254_.jpg",
+    "section": "women",
+    "category": "apparel",
     "relatedItems": [
       {
-        "id": "rare-rabbit-baggy-trouser",
+        "id": "w-for-woman-rust-red-floral-printed-chanderi-kurta-set",
         "relationship": "Pairs perfectly with",
-        "type": "pants"
+        "type": "apparel"
       }
     ]
   },
   {
-    "id": "rare-rabbit-baggy-trouser",
-    "name": "Rare Rabbit Baggy Plain Trouser",
-    "price": "₹3,299",
-    "amazonLink": "https://amzn.to/4df07ng",
-    "image": "/images/rare-trouser.jpg",
-    "section": "men",
-    "category": "pants",
+    "id": "w-for-woman-rust-red-floral-printed-chanderi-kurta-set",
+    "name": "W for Woman Rust Red Floral Printed Chanderi Kurta Set",
+    "price": "\u20b95,999",
+    "amazonLink": "https://link.amazon/B03P5Wt6W",
+    "image": "https://m.media-amazon.com/images/I/71V3QdUs1-L._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
     "relatedItems": [
       {
-        "id": "premium-minimalist-shirt",
+        "id": "nenavoloc-cotton-embroidered-a-line-kurta",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "nenavoloc-cotton-embroidered-a-line-kurta",
+    "name": "NENAVOLOC Cotton Embroidered A-Line Kurta",
+    "price": "\u20b9799",
+    "amazonLink": "https://link.amazon/B05JaIXs7",
+    "image": "https://m.media-amazon.com/images/I/611PFFKIBAL._SL1254_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "classy-closet-cotton-embroidery-printed-kurti",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "classy-closet-cotton-embroidery-printed-kurti",
+    "name": "Classy Closet Cotton Embroidery Printed Kurti",
+    "price": "\u20b9449",
+    "amazonLink": "https://link.amazon/B09KGCMse",
+    "image": "https://m.media-amazon.com/images/I/71LEm41w2ML._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "javima-viscose-rayon-floral-printed-short-kurti",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "javima-viscose-rayon-floral-printed-short-kurti",
+    "name": "JAVIMA Viscose Rayon Floral Printed Short Kurti",
+    "price": "\u20b9299",
+    "amazonLink": "https://link.amazon/B09PtahjJ",
+    "image": "https://m.media-amazon.com/images/I/51Pq+SSoCyL._SL1080_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "rangmanch-pantaloons-blue-indigo-tunic-top",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "rangmanch-pantaloons-blue-indigo-tunic-top",
+    "name": "Rangmanch by Pantaloons Blue Indigo Tunic Top",
+    "price": "\u20b9629",
+    "amazonLink": "https://link.amazon/B09it7w0S",
+    "image": "https://m.media-amazon.com/images/I/61fFU3BhzZL._SL1500_.jpg",
+    "section": "women",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "priyashi-white-rayon-printed-kurta-salwar-set",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "priyashi-white-rayon-printed-kurta-salwar-set",
+    "name": "Priyashi White Rayon Printed Kurta Salwar Set",
+    "price": "\u20b9699",
+    "amazonLink": "https://link.amazon/B0gtqfIFR",
+    "image": "https://m.media-amazon.com/images/I/61dmHBbIkNL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "kriolax-peach-banarasi-suit-set-with-dupatta",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "kriolax-peach-banarasi-suit-set-with-dupatta",
+    "name": "kriolax Peach Banarasi Suit Set with Dupatta",
+    "price": "\u20b91,999",
+    "amazonLink": "https://link.amazon/B0fpDaRez",
+    "image": "https://m.media-amazon.com/images/I/6158c5epGqL._SL1280_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "pink-fort-casual-solid-linen-blend-relaxed-top",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "pink-fort-casual-solid-linen-blend-relaxed-top",
+    "name": "Pink Fort Casual Solid Linen Blend Relaxed Top",
+    "price": "\u20b91,262",
+    "amazonLink": "https://link.amazon/B00EKPEN9",
+    "image": "https://m.media-amazon.com/images/I/419WXVymq7L.jpg",
+    "section": "women",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "khushal-k-pure-cotton-kurta-palazzo-dupatta-set",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "khushal-k-pure-cotton-kurta-palazzo-dupatta-set",
+    "name": "Khushal K Pure Cotton Kurta Palazzo Dupatta Set",
+    "price": "\u20b91,549",
+    "amazonLink": "https://link.amazon/B08ttDaYo",
+    "image": "https://m.media-amazon.com/images/I/61faP9SVnYL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "anni-designer-viscose-embroidered-short-kurti-green",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "anni-designer-viscose-embroidered-short-kurti-green",
+    "name": "ANNI Designer Viscose Embroidered Short Kurti in Green",
+    "price": "\u20b9499",
+    "amazonLink": "https://link.amazon/B0eriL8H8",
+    "image": "https://m.media-amazon.com/images/I/61IUZcZYegL._SL1440_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "tee-projekt-muslin-anarkali-kurta-set-with-dupatta",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "tee-projekt-muslin-anarkali-kurta-set-with-dupatta",
+    "name": "Tee Projekt Muslin Anarkali Kurta Set with Dupatta",
+    "price": "\u20b9849",
+    "amazonLink": "https://link.amazon/B0euTy1cK",
+    "image": "https://m.media-amazon.com/images/I/81T825V+pwL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "pistaa-womens-cotton-printed-straight-kurti",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "pistaa-womens-cotton-printed-straight-kurti",
+    "name": "Pistaa Women's Cotton Printed Straight Kurti",
+    "price": "\u20b9499",
+    "amazonLink": "https://link.amazon/B0cHFAVQb",
+    "image": "https://m.media-amazon.com/images/I/51v9CgSmRsL._SL1440_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "rytras-womens-printed-cotton-straight-kurta",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "rytras-womens-printed-cotton-straight-kurta",
+    "name": "Rytras Women's Printed Cotton Straight Kurta",
+    "price": "\u20b91,499",
+    "amazonLink": "https://link.amazon/B08py61EQ",
+    "image": "https://m.media-amazon.com/images/I/51nRmdXErBL._SL1441_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "janasya-womens-poly-silk-straight-kurta-set",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "janasya-womens-poly-silk-straight-kurta-set",
+    "name": "Janasya Women's Poly Silk Straight Kurta with Pant and Dupatta",
+    "price": "\u20b9799",
+    "amazonLink": "https://link.amazon/B05TCqRHg",
+    "image": "https://m.media-amazon.com/images/I/61zv-gYxr9L._SL1448_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "biba-womens-cotton-straight-kurta",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "biba-womens-cotton-straight-kurta",
+    "name": "BIBA Women's Cotton Straight Kurta",
+    "price": "\u20b9999",
+    "amazonLink": "https://link.amazon/B079bubyM",
+    "image": "https://m.media-amazon.com/images/I/51QyRmzw4AL._SL1389_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "gosriki-womens-cotton-blend-straight-printed-kurta-set",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "gosriki-womens-cotton-blend-straight-printed-kurta-set",
+    "name": "GoSriKi Women's Cotton Blend Straight Printed Kurta with Pant & Dupatta",
+    "price": "\u20b9499",
+    "amazonLink": "https://link.amazon/B0hAd99wD",
+    "image": "https://m.media-amazon.com/images/I/61xz-thYdPL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "naidu-hall-womens-cotton-printed-straight-kurti",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "naidu-hall-womens-cotton-printed-straight-kurti",
+    "name": "Naidu Hall Women's Cotton Printed Straight Kurti",
+    "price": "\u20b9659",
+    "amazonLink": "https://link.amazon/B0bKgCZQr",
+    "image": "https://m.media-amazon.com/images/I/3198EhyitgL.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "klosia-women-cotton-printed-anarkali-kurta-set",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "klosia-women-cotton-printed-anarkali-kurta-set",
+    "name": "KLOSIA Women Cotton Printed Anarkali Kurta with Pant and Dupatta Set",
+    "price": "\u20b91,699",
+    "amazonLink": "https://link.amazon/B00Op8Zwk",
+    "image": "https://m.media-amazon.com/images/I/51KT8817YdL._SL1350_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "anni-designer-womens-rayon-printed-anarkali-kurti",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "anni-designer-womens-rayon-printed-anarkali-kurti",
+    "name": "ANNI DESIGNER Women's Rayon Printed Anarkali Kurti",
+    "price": "\u20b9499",
+    "amazonLink": "https://link.amazon/B09cdVCdq",
+    "image": "https://m.media-amazon.com/images/I/51clH0i408L._SL1280_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "indo-era-womens-viscose-embroidered-straight-kurta-set",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "indo-era-womens-viscose-embroidered-straight-kurta-set",
+    "name": "Indo Era Women's Viscose Embroidered Straight Kurta Set",
+    "price": "\u20b91,548",
+    "amazonLink": "https://link.amazon/B05uUEeaR",
+    "image": "https://m.media-amazon.com/images/I/61WAJGKSrvL._SL1448_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "mulberry-silk-womens-floral-printed-straight-kurti",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "mulberry-silk-womens-floral-printed-straight-kurti",
+    "name": "Mulberry Silk Women's Floral Printed Straight Kurti",
+    "price": "\u20b912,248",
+    "amazonLink": "https://link.amazon/B09Bt6TaE",
+    "image": "https://m.media-amazon.com/images/I/51Z6cx9ZumL._SL1000_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "craftbazar-women-acrylic-relaxed-fit-cashmillon-kashmiri-emb",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "craftbazar-women-acrylic-relaxed-fit-cashmillon-kashmiri-emb",
+    "name": "CRAFTBAZAR Women Acrylic Relaxed Fit Cashmillon Kashmiri Embroidered Short Kaftan Kurta, 2XL, White",
+    "price": "\u20b91,650",
+    "amazonLink": "https://link.amazon/B02hru1Uw",
+    "image": "https://m.media-amazon.com/images/I/61RC0I5Y0VL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "jabama-women-beautiful-cotton-short-kurti-designer-women-x27",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "jabama-women-beautiful-cotton-short-kurti-designer-women-x27",
+    "name": "JABAMA Women Beautiful Cotton Short Kurti | Designer Women&#x27;s Jaipuri Printed Kurta | Casual Wear, Office Wear Kurta Pink",
+    "price": "\u20b9673",
+    "amazonLink": "https://link.amazon/B00o8ckYh",
+    "image": "https://m.media-amazon.com/images/I/71oHyPcNUdL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "vidusha-women-x27-s-cotton-kurti-pant-set-with-dupatta-olive",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "vidusha-women-x27-s-cotton-kurti-pant-set-with-dupatta-olive",
+    "name": "Vidusha Women&#x27;s Cotton Kurti Pant Set with Dupatta, Olive Green Solid Printed Casual Wear, 3 Piece Set (IN, Alpha, S, Regular, Olive Green)",
+    "price": "\u20b9580",
+    "amazonLink": "https://link.amazon/B09Nbu3q3",
+    "image": "https://m.media-amazon.com/images/I/31pde2ziffL.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "disolve-cotton-printed-pleated-short-kurti-for-women-x27-s-w",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "disolve-cotton-printed-pleated-short-kurti-for-women-x27-s-w",
+    "name": "DISOLVE Cotton Printed Pleated Short Kurti for Women&#x27;s| Women Floral Print Peplum Top |Ethnic wear| Casual wear(Maroon) (in, Alpha, S, Regular, Standard, Maroon)",
+    "price": "\u20b9449",
+    "amazonLink": "https://link.amazon/B04QPdE38",
+    "image": "https://m.media-amazon.com/images/I/810YVyTkyeL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "gosriki-women-x27-s-cotton-blend-printed-straight-kurta-with",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "gosriki-women-x27-s-cotton-blend-printed-straight-kurta-with",
+    "name": "GoSriKi Women&#x27;s Cotton Blend Printed Straight Kurta with Pant (2K-Pink-GS_S_Pink_Small)",
+    "price": "\u20b9544",
+    "amazonLink": "https://link.amazon/B01ODQN7J",
+    "image": "https://m.media-amazon.com/images/I/81tHyvg4RrL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "anni-designer-women-x27-s-rayon-blend-straight-printed-kurta",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "anni-designer-women-x27-s-rayon-blend-straight-printed-kurta",
+    "name": "ANNI DESIGNER Women&#x27;s Rayon Blend Straight Printed Kurta with Palazzo (DEEKSHA RED_XS_Red_X-Small)",
+    "price": "\u20b9589",
+    "amazonLink": "https://link.amazon/B0988sgfq",
+    "image": "https://m.media-amazon.com/images/I/51fz-fVBi6L._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "panchakanya-traditional-handmade-cotton-hand-block-a-line-ku",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "panchakanya-traditional-handmade-cotton-hand-block-a-line-ku",
+    "name": "Panchakanya Traditional Handmade Cotton Hand Block A-Line Kurti Kurta Stylish 3/4 Sleeve V Neck Style with Lace Pattern for Women&#x27;s Girls &amp; Ladies (Small) Multicolour",
+    "price": "\u20b91,502",
+    "amazonLink": "https://link.amazon/B0cyNHCj0",
+    "image": "https://m.media-amazon.com/images/I/91MuLTKbtpL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "w-for-woman-sea-green-thread-embroidered-straight-kurta-w138",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "w-for-woman-sea-green-thread-embroidered-straight-kurta-w138",
+    "name": "W for Woman Sea Green Thread Embroidered Straight Kurta - (W13840-401202-S)",
+    "price": "\u20b92,625",
+    "amazonLink": "https://link.amazon/B08OMZ0u4",
+    "image": "https://m.media-amazon.com/images/I/51HQQWdf97L._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "the-chickankari-studio-women-x27-s-pink-chikankari-kurta-emb",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "the-chickankari-studio-women-x27-s-pink-chikankari-kurta-emb",
+    "name": "The Chickankari Studio Women&#x27;s Pink Chikankari Kurta | Embroidered Straight Fit Ethnic Kurti with 3/4 Sleeves | Traditional Lucknowi Style Casual, Office",
+    "price": "\u20b92,499",
+    "amazonLink": "https://link.amazon/B01wDHZaw",
+    "image": "https://m.media-amazon.com/images/I/61Vu9u1LtrL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "lazuri-boutique-women-peach-embroidered-cotton-short-kurti-c",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "lazuri-boutique-women-peach-embroidered-cotton-short-kurti-c",
+    "name": "LAZURI BOUTIQUE Women Peach Embroidered Cotton Short Kurti | Casual Office &amp; College Kurti Top for Girls (in, Alpha, XS)",
+    "price": "\u20b9449",
+    "amazonLink": "https://link.amazon/B0goyEy64",
+    "image": "https://m.media-amazon.com/images/I/71AQmvZiWDL._SL1500_.jpg",
+    "section": "women",
+    "category": "apparel",
+    "relatedItems": [
+      {
+        "id": "salava-women-cotton-floral-printed-short-kurti",
+        "relationship": "Pairs perfectly with",
+        "type": "apparel"
+      }
+    ]
+  },
+  {
+    "id": "men-french-linen-oversized-camp-shirt",
+    "name": "French Linen Oversized Camp Shirt",
+    "price": "\u20b92,499",
+    "amazonLink": "https://amzn.to/m1001",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-heavyweight-cotton-boxy-tee-in-chalk",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-heavyweight-cotton-boxy-tee-in-chalk",
+    "name": "Heavyweight Cotton Boxy Tee in Chalk",
+    "price": "\u20b91,299",
+    "amazonLink": "https://amzn.to/m1002",
+    "image": "https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-ribbed-cashmere-quarter-zip-pullover",
         "relationship": "Complete the look with",
         "type": "tops"
       }
     ]
   },
   {
-    "id": "womens-look-item-01",
-    "name": "GoSriKi Women's Rayon Viscose Printed Kurti ",
-    "price": "₹509",
-    "amazonLink": "https://amzn.to/4uR89su",
-    "image": "/images/women-1.png",
-    "section": "women",
-    "category": "apparel",
+    "id": "men-ribbed-cashmere-quarter-zip-pullover",
+    "name": "Ribbed Cashmere Quarter-Zip Pullover",
+    "price": "\u20b94,299",
+    "amazonLink": "https://amzn.to/m1003",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
     "relatedItems": [
       {
-        "id": "womens-look-item-02",
+        "id": "men-japanese-selvedge-raw-denim-trucker-jacket",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-japanese-selvedge-raw-denim-trucker-jacket",
+    "name": "Japanese Selvedge Raw Denim Trucker Jacket",
+    "price": "\u20b95,999",
+    "amazonLink": "https://amzn.to/m1004",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-brushed-mohair-blend-crewneck-sweater",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-brushed-mohair-blend-crewneck-sweater",
+    "name": "Brushed Mohair Blend Crewneck Sweater",
+    "price": "\u20b93,899",
+    "amazonLink": "https://amzn.to/m1005",
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-vintage-wash-acid-heavy-tee-in-onyx",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-vintage-wash-acid-heavy-tee-in-onyx",
+    "name": "Vintage Wash Acid Heavy Tee in Onyx",
+    "price": "\u20b91,499",
+    "amazonLink": "https://amzn.to/m1006",
+    "image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-minimalist-italian-wool-double-blazer",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-minimalist-italian-wool-double-blazer",
+    "name": "Minimalist Italian Wool Double Blazer",
+    "price": "\u20b97,499",
+    "amazonLink": "https://amzn.to/m1007",
+    "image": "https://images.unsplash.com/photo-1520975954732-35dd22299614?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-chunky-cable-knit-fisherman-cardigan",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-chunky-cable-knit-fisherman-cardigan",
+    "name": "Chunky Cable-Knit Fisherman Cardigan",
+    "price": "\u20b93,699",
+    "amazonLink": "https://amzn.to/m1008",
+    "image": "https://images.unsplash.com/photo-1552374196-1ab2a1c593e8?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-waterproof-technical-shell-gorpcore-jacket",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-waterproof-technical-shell-gorpcore-jacket",
+    "name": "Waterproof Technical Shell Gorpcore Jacket",
+    "price": "\u20b96,299",
+    "amazonLink": "https://amzn.to/m1009",
+    "image": "https://images.unsplash.com/photo-1516257984-b1b4d707412e?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-suede-worker-utility-overshirt-in-camel",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-suede-worker-utility-overshirt-in-camel",
+    "name": "Suede Worker Utility Overshirt in Camel",
+    "price": "\u20b94,999",
+    "amazonLink": "https://amzn.to/m1010",
+    "image": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-organic-hemp-relaxed-fit-cuban-shirt",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-organic-hemp-relaxed-fit-cuban-shirt",
+    "name": "Organic Hemp Relaxed Fit Cuban Shirt",
+    "price": "\u20b92,199",
+    "amazonLink": "https://amzn.to/m1011",
+    "image": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-seamless-mockneck-thermal-sweater",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-seamless-mockneck-thermal-sweater",
+    "name": "Seamless Mockneck Thermal Sweater",
+    "price": "\u20b92,799",
+    "amazonLink": "https://amzn.to/m1012",
+    "image": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-washed-corduroy-button-down-overshirt",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-washed-corduroy-button-down-overshirt",
+    "name": "Washed Corduroy Button-Down Overshirt",
+    "price": "\u20b92,899",
+    "amazonLink": "https://amzn.to/m1013",
+    "image": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-waffle-knit-long-sleeve-layering-tee",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-waffle-knit-long-sleeve-layering-tee",
+    "name": "Waffle Knit Long-Sleeve Layering Tee",
+    "price": "\u20b91,599",
+    "amazonLink": "https://amzn.to/m1014",
+    "image": "https://images.unsplash.com/photo-1480429370139-e0132c086e2a?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-unstructured-linen-summer-blazer-in-oat",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-unstructured-linen-summer-blazer-in-oat",
+    "name": "Unstructured Linen Summer Blazer in Oat",
+    "price": "\u20b95,499",
+    "amazonLink": "https://amzn.to/m1015",
+    "image": "https://images.unsplash.com/photo-1504593811423-6dd665756598?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-embroidered-minimalist-souvenir-jacket",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-embroidered-minimalist-souvenir-jacket",
+    "name": "Embroidered Minimalist Souvenir Jacket",
+    "price": "\u20b94,799",
+    "amazonLink": "https://amzn.to/m1016",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-heavy-gauge-ribbed-tank-in-bone",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-heavy-gauge-ribbed-tank-in-bone",
+    "name": "Heavy-Gauge Ribbed Tank in Bone",
+    "price": "\u20b9999",
+    "amazonLink": "https://amzn.to/m1017",
+    "image": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-poplin-striped-oxford-business-shirt",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-poplin-striped-oxford-business-shirt",
+    "name": "Poplin Striped Oxford Business Shirt",
+    "price": "\u20b92,399",
+    "amazonLink": "https://amzn.to/m1018",
+    "image": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-fleece-lined-vintage-varsity-jacket",
+        "relationship": "Complete the look with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-fleece-lined-vintage-varsity-jacket",
+    "name": "Fleece-Lined Vintage Varsity Jacket",
+    "price": "\u20b95,199",
+    "amazonLink": "https://amzn.to/m1019",
+    "image": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-seamless-fine-merino-turtleneck-sweater",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
+      }
+    ]
+  },
+  {
+    "id": "men-seamless-fine-merino-turtleneck-sweater",
+    "name": "Seamless Fine-Merino Turtleneck Sweater",
+    "price": "\u20b93,499",
+    "amazonLink": "https://amzn.to/m1020",
+    "image": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "tops",
+    "relatedItems": [
+      {
+        "id": "men-double-pleated-tailored-wool-trousers",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-double-pleated-tailored-wool-trousers",
+    "name": "Double-Pleated Tailored Wool Trousers",
+    "price": "\u20b93,999",
+    "amazonLink": "https://amzn.to/m1021",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-japanese-wide-leg-washed-selvedge-jeans",
+        "relationship": "Pairs perfectly with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-japanese-wide-leg-washed-selvedge-jeans",
+    "name": "Japanese Wide-Leg Washed Selvedge Jeans",
+    "price": "\u20b94,499",
+    "amazonLink": "https://amzn.to/m1022",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-gorpcore-cargo-pants-with-ankle-cords",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-gorpcore-cargo-pants-with-ankle-cords",
+    "name": "Gorpcore Cargo Pants with Ankle Cords",
+    "price": "\u20b93,299",
+    "amazonLink": "https://amzn.to/m1023",
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-drawstring-italian-linen-lounge-pants",
+        "relationship": "Pairs perfectly with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-drawstring-italian-linen-lounge-pants",
+    "name": "Drawstring Italian Linen Lounge Pants",
+    "price": "\u20b92,499",
+    "amazonLink": "https://amzn.to/m1024",
+    "image": "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-cropped-ankle-length-smart-chinos",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-cropped-ankle-length-smart-chinos",
+    "name": "Cropped Ankle-Length Smart Chinos",
+    "price": "\u20b92,799",
+    "amazonLink": "https://amzn.to/m1025",
+    "image": "https://images.unsplash.com/photo-1542272604-780c36856d67?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-vintage-washed-black-straight-denim",
+        "relationship": "Pairs perfectly with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-vintage-washed-black-straight-denim",
+    "name": "Vintage Washed Black Straight Denim",
+    "price": "\u20b93,699",
+    "amazonLink": "https://amzn.to/m1026",
+    "image": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-heavyweight-fleece-sweatpants-in-sage",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-heavyweight-fleece-sweatpants-in-sage",
+    "name": "Heavyweight Fleece Sweatpants in Sage",
+    "price": "\u20b92,199",
+    "amazonLink": "https://amzn.to/m1027",
+    "image": "https://images.unsplash.com/photo-1506629082925-4747752e6900?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-fine-ribbed-corduroy-trousers-in-olive",
+        "relationship": "Pairs perfectly with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-fine-ribbed-corduroy-trousers-in-olive",
+    "name": "Fine-Ribbed Corduroy Trousers in Olive",
+    "price": "\u20b93,199",
+    "amazonLink": "https://amzn.to/m1028",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-technical-stretch-utility-track-pants",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-technical-stretch-utility-track-pants",
+    "name": "Technical Stretch Utility Track Pants",
+    "price": "\u20b92,899",
+    "amazonLink": "https://amzn.to/m1029",
+    "image": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-relaxed-fit-gurkha-waistband-trousers",
+        "relationship": "Pairs perfectly with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-relaxed-fit-gurkha-waistband-trousers",
+    "name": "Relaxed Fit Gurkha Waistband Trousers",
+    "price": "\u20b94,199",
+    "amazonLink": "https://amzn.to/m1030",
+    "image": "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-carpenter-utility-pants-with-hammer-loop",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-carpenter-utility-pants-with-hammer-loop",
+    "name": "Carpenter Utility Pants with Hammer Loop",
+    "price": "\u20b93,399",
+    "amazonLink": "https://amzn.to/m1031",
+    "image": "https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-tapered-suit-pants-in-midnight-navy",
+        "relationship": "Pairs perfectly with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-tapered-suit-pants-in-midnight-navy",
+    "name": "Tapered Suit Pants in Midnight Navy",
+    "price": "\u20b93,799",
+    "amazonLink": "https://amzn.to/m1032",
+    "image": "https://images.unsplash.com/photo-1512353087810-25dfcd100962?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-raw-hem-distressed-skater-jeans",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-raw-hem-distressed-skater-jeans",
+    "name": "Raw Hem Distressed Skater Jeans",
+    "price": "\u20b93,599",
+    "amazonLink": "https://amzn.to/m1033",
+    "image": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-pleated-linen-cotton-blend-shorts",
+        "relationship": "Pairs perfectly with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-pleated-linen-cotton-blend-shorts",
+    "name": "Pleated Linen-Cotton Blend Shorts",
+    "price": "\u20b91,899",
+    "amazonLink": "https://amzn.to/m1034",
+    "image": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-waterproof-trail-hiking-trousers",
+        "relationship": "Complete the look with",
+        "type": "pants"
+      }
+    ]
+  },
+  {
+    "id": "men-waterproof-trail-hiking-trousers",
+    "name": "Waterproof Trail Hiking Trousers",
+    "price": "\u20b93,499",
+    "amazonLink": "https://amzn.to/m1035",
+    "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "pants",
+    "relatedItems": [
+      {
+        "id": "men-minimalist-off-white-leather-court-sneakers",
         "relationship": "Pairs perfectly with",
         "type": "accessories"
       }
     ]
   },
   {
-    "id": "womens-look-item-02",
-    "name": "Sleeveless Printed Long Kurti with White Palazzo Set, Black and White, Rayon, Ethnic Wear",
-    "price": "₹499",
-    "amazonLink": "https://amzn.to/4tJ7CI0",
-    "image": "/images/women-2.png",
-    "section": "women",
+    "id": "men-minimalist-off-white-leather-court-sneakers",
+    "name": "Minimalist Off-White Leather Court Sneakers",
+    "price": "\u20b94,999",
+    "amazonLink": "https://amzn.to/m1036",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
     "category": "accessories",
     "relatedItems": [
       {
-        "id": "womens-look-item-01",
+        "id": "men-handcrafted-full-grain-leather-crossbody",
         "relationship": "Complete the look with",
-        "type": "apparel"
+        "type": "accessories"
       }
     ]
   },
   {
-    "id": "womens-pink-floral-kurti",
-    "name": "Women’s Pink Floral Printed Long Kurti",
-    "price": "₹399",
-    "amazonLink": "https://amzn.to/4fxhvoJ",
-    "image": "/images/pink-floral.jpg",
-    "section": "women",
-    "category": "apparel",
+    "id": "men-handcrafted-full-grain-leather-crossbody",
+    "name": "Handcrafted Full-Grain Leather Crossbody",
+    "price": "\u20b93,899",
+    "amazonLink": "https://amzn.to/m1037",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
     "relatedItems": [
       {
-        "id": "womens-wide-leg-jeans",
+        "id": "men-matte-black-minimalist-chronograph-watch",
         "relationship": "Pairs perfectly with",
-        "type": "apparel"
+        "type": "accessories"
       }
     ]
   },
   {
-    "id": "womens-wide-leg-jeans",
-    "name": "Women's Wide Leg Mid Rise Regular Length Denim Jeans",
-    "price": "₹999",
-    "amazonLink": "https://amzn.to/4tPKEPn",
-    "image": "/images/blue-pant.jpg",
-    "section": "women",
-    "category": "apparel",
+    "id": "men-matte-black-minimalist-chronograph-watch",
+    "name": "Matte Black Minimalist Chronograph Watch",
+    "price": "\u20b95,999",
+    "amazonLink": "https://amzn.to/m1038",
+    "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
     "relatedItems": [
       {
-        "id": "womens-pink-floral-kurti",
+        "id": "men-italian-full-grain-calfskin-leather-belt",
         "relationship": "Complete the look with",
-        "type": "apparel"
+        "type": "accessories"
       }
     ]
   },
   {
-    "id": "womens-anubhuti-two-piece",
-    "name": "Comfortable Loose Fitting Two-Piece Set",
-    "price": "₹1,599",
-    "amazonLink": "https://amzn.to/4tTXOeu",
-    "image": "/images/two-piece-set.png",
-    "section": "women",
-    "category": "apparel",
+    "id": "men-italian-full-grain-calfskin-leather-belt",
+    "name": "Italian Full-Grain Calfskin Leather Belt",
+    "price": "\u20b91,799",
+    "amazonLink": "https://amzn.to/m1039",
+    "image": "https://images.unsplash.com/photo-1508296695146-257a814070b4?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
     "relatedItems": [
       {
-        "id": "womens-floral-sleeveless",
-        "relationship": "You might also like",
-        "type": "apparel"
+        "id": "men-architectural-acetate-square-sunglasses",
+        "relationship": "Pairs perfectly with",
+        "type": "accessories"
       }
     ]
   },
   {
-    "id": "womens-floral-sleeveless",
-    "name": "Floral Printed Sleeveless Dress",
-    "price": "₹299",
-    "amazonLink": "https://amzn.to/43mqkub",
-    "image": "/images/floral-dress.png",
-    "section": "women",
-    "category": "apparel",
+    "id": "men-architectural-acetate-square-sunglasses",
+    "name": "Architectural Acetate Square Sunglasses",
+    "price": "\u20b91,699",
+    "amazonLink": "https://amzn.to/m1040",
+    "image": "https://images.unsplash.com/photo-1614252235316-8c857d38b5f4?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
     "relatedItems": [
       {
-        "id": "womens-anubhuti-two-piece",
-        "relationship": "You might also like",
-        "type": "apparel"
+        "id": "men-suede-chelsea-boots-in-espresso",
+        "relationship": "Complete the look with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-suede-chelsea-boots-in-espresso",
+    "name": "Suede Chelsea Boots in Espresso",
+    "price": "\u20b96,499",
+    "amazonLink": "https://amzn.to/m1041",
+    "image": "https://images.unsplash.com/photo-1511556532299-8f662fc26c06?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-sterling-silver-minimalist-band-ring",
+        "relationship": "Pairs perfectly with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-sterling-silver-minimalist-band-ring",
+    "name": "Sterling Silver Minimalist Band Ring",
+    "price": "\u20b91,299",
+    "amazonLink": "https://amzn.to/m1042",
+    "image": "https://images.unsplash.com/photo-1539185441755-769473a23570?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-ribbed-cashmere-beanie-in-charcoal",
+        "relationship": "Complete the look with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-ribbed-cashmere-beanie-in-charcoal",
+    "name": "Ribbed Cashmere Beanie in Charcoal",
+    "price": "\u20b91,199",
+    "amazonLink": "https://amzn.to/m1043",
+    "image": "https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-heavy-canvas-daily-commuter-backpack",
+        "relationship": "Pairs perfectly with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-heavy-canvas-daily-commuter-backpack",
+    "name": "Heavy Canvas Daily Commuter Backpack",
+    "price": "\u20b92,999",
+    "amazonLink": "https://amzn.to/m1044",
+    "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-leather-cardholder-with-rfid-shield",
+        "relationship": "Complete the look with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-leather-cardholder-with-rfid-shield",
+    "name": "Leather Cardholder with RFID Shield",
+    "price": "\u20b9999",
+    "amazonLink": "https://amzn.to/m1045",
+    "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-chunky-lug-sole-leather-derby-shoes",
+        "relationship": "Pairs perfectly with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-chunky-lug-sole-leather-derby-shoes",
+    "name": "Chunky Lug-Sole Leather Derby Shoes",
+    "price": "\u20b95,799",
+    "amazonLink": "https://amzn.to/m1046",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-stainless-steel-cuban-chain-bracelet",
+        "relationship": "Complete the look with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-stainless-steel-cuban-chain-bracelet",
+    "name": "Stainless Steel Cuban Chain Bracelet",
+    "price": "\u20b91,499",
+    "amazonLink": "https://amzn.to/m1047",
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-woven-straw-fedora-summer-hat",
+        "relationship": "Pairs perfectly with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-woven-straw-fedora-summer-hat",
+    "name": "Woven Straw Fedora Summer Hat",
+    "price": "\u20b91,399",
+    "amazonLink": "https://amzn.to/m1048",
+    "image": "https://images.unsplash.com/photo-1578932750294-f5075e85f44a?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-canvas-low-top-retro-skate-sneakers",
+        "relationship": "Complete the look with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-canvas-low-top-retro-skate-sneakers",
+    "name": "Canvas Low-Top Retro Skate Sneakers",
+    "price": "\u20b93,299",
+    "amazonLink": "https://amzn.to/m1049",
+    "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-leather-travel-weekender-duffle-bag",
+        "relationship": "Pairs perfectly with",
+        "type": "accessories"
+      }
+    ]
+  },
+  {
+    "id": "men-leather-travel-weekender-duffle-bag",
+    "name": "Leather Travel Weekender Duffle Bag",
+    "price": "\u20b97,999",
+    "amazonLink": "https://amzn.to/m1050",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=800&auto=format&fit=crop",
+    "section": "men",
+    "category": "accessories",
+    "relatedItems": [
+      {
+        "id": "men-french-linen-oversized-camp-shirt",
+        "relationship": "Pairs perfectly with",
+        "type": "tops"
       }
     ]
   }

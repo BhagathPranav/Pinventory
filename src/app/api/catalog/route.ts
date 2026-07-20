@@ -19,7 +19,9 @@ export async function GET() {
       const title = product.name;
       const description = product.name;
       const link = `https://pinventory-5hr5.vercel.app/product/${product.id}`;
-      const image_link = `https://pinventory-5hr5.vercel.app${product.image}`;
+      const image_link = product.image.startsWith('http') 
+        ? product.image 
+        : `https://pinventory-5hr5.vercel.app${product.image}`;
       
       const priceValue = product.price.replace(/[^0-9.]/g, '');
       const price = `${priceValue} INR`;

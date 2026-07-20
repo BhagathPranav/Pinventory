@@ -4,6 +4,12 @@ import path from 'path';
 const productsFilePath = path.join(process.cwd(), 'data', 'products.json');
 const categoriesFilePath = path.join(process.cwd(), 'data', 'categories.json');
 
+export interface RelatedItem {
+  id: string;
+  relationship: string;
+  type: string;
+}
+
 export interface Product {
   id: string;
   name: string;
@@ -12,20 +18,26 @@ export interface Product {
   image: string;
   section: string;
   category: string;
-  relatedItems?: any[];
+  relatedItems?: RelatedItem[];
 }
 
-export function getAllProducts() {
+export interface Category {
+  slug: string;
+  name: string;
+  description: string;
+}
+
+export function getAllProducts(): Product[] {
   const fileContents = fs.readFileSync(productsFilePath, 'utf8');
   return JSON.parse(fileContents);
 }
 
-export function getProductById(id: string) {
+export function getProductById(id: string): Product | undefined {
   const products = getAllProducts();
-  return products.find((product: any) => product.id === id);
+  return products.find((product: Product) => product.id === id);
 }
 
-export function getAllCategories() {
+export function getAllCategories(): Category[] {
   const fileContents = fs.readFileSync(categoriesFilePath, 'utf8');
   return JSON.parse(fileContents);
 }

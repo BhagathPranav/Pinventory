@@ -1,12 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
+import { DEFAULT_BLUR_DATA_URL } from "@/lib/imageUtils";
+import { FadeIn } from "@/lib/animations";
+
 export default async function Home() {
 
   return (
     <div className="flex flex-col">
       {/* HERO SECTION */}
       <section className="px-6 py-12 md:px-12 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
-        <div className="flex flex-col items-start max-w-xl">
+        <FadeIn className="flex flex-col items-start max-w-xl">
           <div className="font-mono text-xs tracking-widest uppercase mb-8 text-ebony/70">
             VOL. 01 &bull; SPRING CORE
           </div>
@@ -30,17 +33,19 @@ export default async function Home() {
               Shop Women &rarr;
             </Link>
           </div>
-        </div>
+        </FadeIn>
         
-        <div className="relative aspect-square md:aspect-[4/5] w-full border border-ebony overflow-hidden group">
+        <FadeIn delay={0.2} className="relative aspect-square md:aspect-[4/5] w-full border border-ebony overflow-hidden group">
           <Image 
             src="https://images.unsplash.com/photo-1550246140-5119ae4790b8?q=80&w=1200&auto=format&fit=crop" 
             alt="Editorial Cover" 
             fill 
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
             priority
+            placeholder="blur"
+            blurDataURL={DEFAULT_BLUR_DATA_URL}
+            className="object-cover transition-transform duration-700 group-hover:scale-105"
           />
-        </div>
+        </FadeIn>
       </section>
 
 
